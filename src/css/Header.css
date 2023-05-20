@@ -1,0 +1,34 @@
+.navbar{
+    margin-top: -50px !important;
+    background-color: #2ccc94 !important;
+    padding: 20px !important; 
+}
+.logo{
+    font-size: 25px;
+}
+a{
+    color: #fff !important;
+    text-decoration: none !important;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+a.active{
+    color: #1c6e51 !important;
+}
+/* Product Nav */
+.productNav{
+    margin:-15px auto;
+    text-align: center;
+}
+.productNav .nav-link.active{
+    background-color:#2ccc94 !important;
+    color: #fff !important;
+}
+.productNav .nav-link,.notActive{
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    color: #1c6e51 !important;
+    transition: 0.8s;
+}
+
